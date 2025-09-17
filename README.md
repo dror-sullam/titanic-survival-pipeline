@@ -1,2 +1,2 @@
 # titanic-survival-pipeline
-End-to-end supervised learning pipeline (sklearn) for Titanic survival: preprocessing, tuned Logistic Regression, CV, and F1 evaluation.
+This repository implements an end-to-end supervised learning pipeline for the Titanic survival prediction task using scikit-learn. It includes data preprocessing (imputation, one-hot encoding, scaling) with ColumnTransformer and Pipeline, model selection with GridSearchCV and K-Fold cross-validation, and evaluation using F1 and a classification report. The notebook walks through the full flow from loading data to reporting test-set performance.
